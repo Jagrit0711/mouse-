@@ -19,5 +19,4 @@ Item,Quantity,Category,Part Name,Description,Approx. Cost (INR),Source/Example,N
 18,1,Tooling (non-consumed),3D Printer,"For printing shell and parts",0,Existing tool,"Not a consumable part",0
 19,1,Tooling (non-consumed),Soldering Iron,"For soldering switches, headers, etc.",0,Existing tool,"Not a consumable part",0
 20,1,Tooling (non-consumed),Hot Air Rework Station,"For salvaging PMW3360 and SMD work",0,Existing tool,"Not a consumable part",0
-,,,,,,,,,
-,,,"Total Estimated Cost (INR)",,,,"",3800
+21,,,,Total Estimated Cost (INR),,,3800
