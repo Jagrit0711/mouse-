@@ -1,0 +1,115 @@
+SQLite format 3   @     â                                                               â .nº
+ø â âÅ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ` ƒtablepart_infopart_infoCREATE TABLE part_info (reference NOT NULL PRIMARY KEY,value TEXT NOT NULL,footprint TEXT NOT NULL,lcsc TEXT,stock NUMERIC,exclude_from_bom NUMERIC DEFAULT 0,exclude_from_pos NUMERIC DEFAULT 0)1E indexsqlite_autoindex_part_info_1part_info       
+ó C; ?žšrLßÇ Áetv
+öp
+«É
+W
+-
+ áKAÉõ
+ÚqªpE%
+û 
+ª#
+fÅ
+õ	úÉ	Á	†
+D	5	á“c¢7
+Ô –ð tE î—e;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             (C5
+
+	P31TestPointTestPoint_Pad_D1.0mm(B5
+
+	P30TestPointTestPoint_Pad_D1.0mm61/U10NCP1117-3.3_SOT223SOT-223-3_TabPin2C6186 ÷%	'U3RP2040RP2040-QFN-56C2040*[*@/R20010kR_0603_1608MetricC25804 ÛàŒ)4/R5001kR_0603_1608MetricC21190 Š<¢)"/R1001kR_0603_1608MetricC21190 Š<¢(/C30015pC_0603_1608MetricC1644
+­c)/C40010uC_0603_1608MetricC19702Hm))/C10010uC_0603_1608MetricC19702Hm&</C81uC_0603_1608MetricC15849yÇ+/C500100nC_0603_1608MetricC146632[¯*>/C15100nC_0603_1608MetricC146632[¯*/C14100nC_0603_1608MetricC146632[¯*/C13100nC_0603_1608MetricC146632[¯*-/C12100nC_0603_1608MetricC146632[¯)+/C9100nC_0603_1608MetricC146632[¯)%/C7100nC_0603_1608MetricC146632[¯)/C6100nC_0603_1608MetricC146632[¯*/C3100nFC_0603_1608MetricC146632[¯%7/
+C210uFC_0603_1608MetricC19702(/C110uFC_0603_1608MetricC19702Hm a "/
+
+R20010kR_0603_1608Metric(?5
+
+	P12TestPointTestPoint_Pad_D1.0mmD1DD_SOD-123C81598“­898À 
+
+D8DD_SOD-=D8DD_SOD-123C81598“­ricI;/[
+
+	USB_BOOT1Conn_01x01_SocketTestPoint_THTPad_D2.0mm_Drill1.0mm_Edit"/
+R40R39R_0603_1608Metric
+å‹09#/U1LM1117-1.8VSOT-223-3_TabPin2C347220ƒ²*8/C11100nC_0603_1608MetricC146632[¯.6'/
+
+	Encoder1RotaryEncoderAlps-EC10E1220501+5?
+
+	SW1SW_SPDTSW_Tactile_SPDT_Omron_D2F	_ !/
+
+R5001kR_0603_1608Metric(35
+
+	P21TestPointTestPoint_Pad_D1.0mm(25
+
+	P20TestPointTestPoint_Pad_D1.0mm(15
+
+	P28TestPointTestPoint_Pad_D1.0mm	ë '
+
+D2DD_SOD-1230/!E
+
+U4W25Q39/!EU4W25Q32JVSSSOIC-8_5.275x5.275mm_P1.27mmC97521 ›Ì(./C20015pC_0603_1608MetricC1644
+­c
+“ 
+
+D6DD_,D6DD_SOD-123C81598“­)*/C44.7uFC_0603_1608MetricC196661Éx0D2DD_SOD-123C81598“­ric+(?
+
+	SW4SW_SPDTSW_Tactile_SPDT_Omron_D2FO 
+
+D12DD_SOD-123.&K
+
+	USB1USBPinHeader_1x04_P2.54mm_VerticalD3DD_SOD-123C81598“­ic($5
+
+	P15TestPointTestPoint_Pad_D1.0mm(#5
+
+	P13TestPointTestPoint_Pad_D1.0mmš !/
+
+R1001kR_0603_1608Metric(!5
+
+	P27TestPointTestPoint_Pad_D1.0mmè 
+
+D9DD_S D9DD_SOD-123C81598“­D4DD_SOD-123C81598“­n 
+
+
+D5DD5DD_SOD-123C81598“­+?
+
+	SW6SW_SPDTSW_Tactile_SPDT_Omron_D2F+?
+
+	SW5SW_SPDTSW_Tactile_SPDT_Omron_D2F‘ D7DD_SOD-123C81598“­â 1/(A5
+
+	P32TestPointTestPoint_Pad_D1.0mmD10DD_SOD-123C81598“­8
+“ !/
+
+R40R39R_0603_1608Metric(5
+
+	P29TestPointTestPoint_Pad_D1.0mm(5
+
+	P26TestPointTestPoint_Pad_D1.0mm:)Q
+
+	U2PMW3360DM-T2QUPixArt_PDIP-16_10.9x16.2mm_P1.78mmE /
+
+C110uFC_0603_1'/C101uC_0603_1608MetricC15849yÇ:D11DD_SOD-123C81598“­98+?
+
+	SW3SW_SPDTSW_Tactile_SPDT_Omron_D2F'D12DD_SOD-123C81598“­98’  /
+
+R110KR_0603_1608Metric+?
+
+	SW2SW_SPDTSW_Tactile_SPDT_Omron_D2FÈ 
+
+D10D&
+/R327R_0603_1608MetricC227750×¯G '
+
+U3RP2040RP2><#KY1ABM8-272-T3Crystal_SMD_3225-4Pin_3.2x2.5mmC50430<±( 5
+
+	P11TestPointTestPoint_Pad_D1.0mmÈ &/R427R_0603_1608MetricC227750×¯(
+/R110KR_0603_1608MetricC25804 ÛàŒ(5
+
+	P14TestPointTestPoint_Pad_D1.0mm   8/
+
+C1*)(/R40R39R_0603_1608MetricC22962
+å‹
+   C
+î xÃJ¦òR˜‡¼áARå&µú®;Ô*#®Ú
+YËôêìwi‡a
+ö
+î
+þŸü¶ÓYnf¦Ì91CJq½–Ü-Ä                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 P31C P30B P32AR200@ P12? C15>D8=C8<
+USB_BOOT1; D11:U19 C118C27Encoder16 SW15R5004 P213 P202 P281D20U4/C200. C12-D6,C9+C4*C100) SW4( D12'USB1&C7% P15$ P13#R100" P27!D9  C14D3D5D4 SW6 SW5C500 U10C6 R40 P29 P26U2C1 C10C300 SW3C3R1
+ SW2 D10R3
+U3	Y1 P11 R4D7C400 P14 C13	D1
