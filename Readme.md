@@ -1,50 +1,38 @@
-This project is a completely DIY gaming mouse built around the Pixart PMW3360 sensor — the same kind used in premium gaming mice.
-It’s open-source, fully customizable, and focuses on:
+# Custom Mouse
 
-Ultra-low latency performance
+This project is a custom-designed computer mouse made using a Raspberry Pi Pico board and a fully 3D-printed shell.  
+All parts of the mouse — including the shell, buttons, and scroll wheel — were modeled, printed, and assembled manually.  
+The PCB and schematic were designed to fit perfectly inside the case.
 
-No double-click problems
+---
 
-Lightweight design (around 55 g)
+## Mouse Shell Renders
 
-Fingertip-grip ergonomic shell
+### Top Shell
+![Top Shell](images/mouse_shell_top.png)
 
-The mouse is powered by an RP2040 microcontroller (Raspberry Pi Pico) and uses 3D-printed parts for its body.
+### Bottom Shell
+![Bottom Shell](images/mouse_shell_bottom.png)
 
-Main Features
+### Thumb Buttons
+![Thumb Button A](images/mouse_thumb_a.png)
+![Thumb Button B](images/mouse_thumb_b.png)
 
-✅ Zero-latency button debouncing (no double-clicks ever)
-✅ 1000 Hz tracking speed (1 ms response time)
-✅ Smart, lightweight design with custom 3D-printed shell
-✅ Open-source hardware & firmware (you can tweak everything)
-✅ Programmable DPI and button mappings
+### Scroll Wheel
+![Scroll Wheel](images/mouse_wheel.png)
 
-How It’s Built (Simplified Process)
+### Wheel Brace
+![Wheel Brace](images/mouse_wheel_brace.png)
 
-3D Printing the Case
+---
 
-The shell (top, bottom, buttons, scroll wheel) is printed with PLA filament.
+## PCB Design
 
-Use Cura or another slicer to make G-code.
+### PCB Schematic
+![PCB Schematic](images/pcb_schematic.png)
 
-Print one part at a time for best quality.
+### PCB Render
+![PCB Render](images/pcb_render.png)
 
-Electronics
+---
 
-Microcontroller: Raspberry Pi Pico (acts as the brain).
-
-Sensor: Pixart PMW3360 (must be salvaged from another mouse).
-
-Switches: 6 × Omron D2F-01F (for buttons).
-
-Scroll Wheel Encoder: Alps-compatible 11 mm encoder.
-
-Power: USB cable (wired connection).
-
-Firmware
-
-Written in C++ using Arduino IDE (2.x).
-
-Special debounce algorithm = zero lag.
-
-DPI currently hard-coded to 1200 (can be changed in code).
