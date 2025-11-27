@@ -9,7 +9,7 @@ The PCB and schematic were designed to fit perfectly inside the case.
 ## Mouse Shell Renders
 
 ### Top Shell
-![Top Shell](images/mouse_shell_top.png)
+![Top Shell](images/mouse_shell_top.png.png)
 
 ### Bottom Shell
 ![Bottom Shell](images/mouse_shell_bottom.png)
