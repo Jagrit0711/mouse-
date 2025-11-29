@@ -1,22 +1,22 @@
-Product Name,Source,Quantity,Cost (USD),Notes
-Raspberry Pi Pico / Pico 2,Alibaba,1,6.00,Main microcontroller board
-Pixart PMW3360 Sensor (Salvaged / Alibaba),Alibaba,1,12.00,Optical sensor for tracking
-Omron D2F-01F Switches (Set of 6),Alibaba,1,4.50,Click switches for buttons
-11mm Alps Scroll Encoder,Alibaba,1,3.50,For scroll wheel function
-Micro USB Cable,Alibaba,1,1.50,Power and data connection
-PTFE Mouse Feet (0.6mm),Alibaba,1,2.00,Smooth surface gliding
-"Misc Resistors, Capacitors, and Wires",Alibaba,1 set,5.00,"For power, LED, and switch connections"
-Screws and small hardware,Local / Alibaba,1 set,2.00,Case assembly
-Hot Glue (for cable fixing),Local,1,0.50,Cable securing
-JLCPCB (PCB/PCBA/Stencil) - mouse_pic_Y2,JLCPCB,5 pcs,35.00,PCB prototype Y2-11137478A Green 1.6mm HASL (with lead)
-3D mouse shell progress pico 2 top.stl,JLC3DP,1,3.00,ABS Black 3 days
-3D mouse shell progress pico 2 bottom.stl,JLC3DP,1,4.42,ABS Black 3 days
-3D mouse shell progress pico 2 thumb a.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
-3D mouse shell progress pico 2 thumb b.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
-3D mouse shell progress pico 2 wheel brace.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
-3D mouse shell progress pico 2 wheel.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
-3D mouse shell progress pico 2 top.stl (duplicate print),JLC3DP,1,3.00,ABS Black 3 days
-3D mouse shell progress pico 2 bottom.stl (duplicate print),JLC3DP,1,4.42,ABS Black 3 days
-Shipping (Alibaba subtotal 72.23 after discounts),Alibaba,1,14.12,Shipping cost for components
-Soldering Iron,Local,1,0.00,"I don’t currently have one but can arrange if needed (not included in total cost)"
-Final Total Cost,All,1,120.00,Complete estimated project cost (hardware + PCB + 3D printing)
+ProductName,CostUSD,IncludedInTotal,Notes
+Raspberry Pi Pico W board,5.93,Yes,Main controller board
+PMW3360 sensor module,20.38,Yes,Original Pixart gaming mouse sensor
+Omron D2FC switch pack,5.62,Yes,Micro switch pack for buttons
+TTC scroll encoder,3.54,Yes,Mouse wheel encoder
+Extra long micro USB cable,5.94,Yes,Fast charging and data cable
+SMD capacitor kit,8.77,Yes,Assorted 0603 0805 1206 capacitors
+SMD resistor kit,4.64,Yes,Assorted 0402 0603 0805 1206 resistors
+JLCPCB PCB mouse_pic_Y2 5pcs,58.90,Yes,PCB prototype Y2-11137478A green 1p6mm HASL
+3D print top shell job1,3.00,Yes,mouse shell progress pico 2 top ABS black
+3D print bottom shell job1,4.42,Yes,mouse shell progress pico 2 bottom ABS black
+3D print thumb a,1.00,Yes,mouse shell progress pico 2 thumb a PA12 nylon black
+3D print thumb b,1.00,Yes,mouse shell progress pico 2 thumb b PA12 nylon black
+3D print wheel brace,1.00,Yes,mouse shell progress pico 2 wheel brace PA12 nylon black
+3D print wheel,1.00,Yes,mouse shell progress pico 2 wheel PA12 nylon black
+3D print top shell job2,3.00,Yes,second print mouse shell progress pico 2 top ABS black
+3D print bottom shell job2,4.42,Yes,second print mouse shell progress pico 2 bottom ABS black
+JLCPCB shipping,2.39,Yes,Estimated shipping from JLCPCB
+JLCPCB coupon discount,-9.00,Yes,Automatic coupon applied on JLCPCB order
+Alibaba shipping,14.12,Yes,Total shipping cost for Alibaba items
+Soldering iron kit 80W,14.93,No,I do not have it now but can arrange if needed not included in money needed
+Total project cost excluding soldering iron,140.07,Yes,Sum of all items marked Yes including shipping and JLC coupon
