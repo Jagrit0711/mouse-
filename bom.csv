@@ -1,41 +1,23 @@
-# DIY Custom Mouse - Final Bill of Materials (BOM)
-
-Product Name, Source, Quantity, Cost (USD), Notes
-Raspberry Pi Pico / Pico 2, Alibaba, 1, $6.00, Main microcontroller board
-Pixart PMW3360 Sensor (Salvaged / Alibaba), Alibaba, 1, $12.00, Optical sensor for tracking
-Omron D2F-01F Switches (Set of 6), Alibaba, 1, $4.50, Click switches for buttons
-11mm Alps Scroll Encoder, Alibaba, 1, $3.50, For scroll wheel function
-Micro USB Cable, Alibaba, 1, $1.50, Power and data connection
-PTFE Mouse Feet (0.6mm), Alibaba, 1, $2.00, Smooth surface gliding
-Misc Resistors, Capacitors, and Wires, Alibaba, 1 set, $5.00, For power, LED, and switch connections
-Screws and small hardware, Local / Alibaba, 1 set, $2.00, Case assembly
-Hot Glue (for cable fixing), Local, 1, $0.50, Cable securing
-
-, , , , 
-# PCB and 3D Printed Parts (JLCPCB / JLC3DP)
-JLCPCB (PCB/PCBA/Stencil) - mouse_pic_Y2, JLCPCB, 5 pcs, $35.00, PCB prototype: Y2-11137478A, Green, 1.6mm thickness, HASL (with lead)
-3D mouse shell progress pico 2 top.stl, JLC3DP, 1, $3.00, ABS, Black, 3 days
-3D mouse shell progress pico 2 bottom.stl, JLC3DP, 1, $4.42, ABS, Black, 3 days
-3D mouse shell progress pico 2 thumb a.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
-3D mouse shell progress pico 2 thumb b.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
-3D mouse shell progress pico 2 wheel brace.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
-3D mouse shell progress pico 2 wheel.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
-3D mouse shell progress pico 2 top.stl (duplicate print), JLC3DP, 1, $3.00, ABS, Black, 3 days
-3D mouse shell progress pico 2 bottom.stl (duplicate print), JLC3DP, 1, $4.42, ABS, Black, 3 days
-
-, , , ,
-# Alibaba Order Summary
-, , , ,
-Merchandise Total, , , $77.74, 
-Shipping (Estimated), , , $2.39, 
-Coupons Applied, , , -$9.00, 
-Subtotal, , , $71.13, 
-
-, , , ,
-# Additional Details
-Shipping (Alibaba), , , $14.12, Shipping cost for components from Alibaba
-Soldering Iron, Local, 1, $0.00, "I don’t currently have one, but I can arrange if needed — not included in total cost"
-
-, , , ,
-# FINAL TOTAL COST (Including All Orders & Shipping)
-, , , ≈ $120.00, Complete estimated cost for full project (hardware, PCB, and 3D printing)
+Product Name,Source,Quantity,Cost (USD),Notes
+Raspberry Pi Pico / Pico 2,Alibaba,1,6.00,Main microcontroller board
+Pixart PMW3360 Sensor (Salvaged / Alibaba),Alibaba,1,12.00,Optical sensor for tracking
+Omron D2F-01F Switches (Set of 6),Alibaba,1,4.50,Click switches for buttons
+11mm Alps Scroll Encoder,Alibaba,1,3.50,For scroll wheel function
+Micro USB Cable,Alibaba,1,1.50,Power and data connection
+PTFE Mouse Feet (0.6mm),Alibaba,1,2.00,Smooth surface gliding
+Misc Resistors, Capacitors, and Wires,Alibaba,1 set,5.00,For power, LED, and switch connections
+Screws and small hardware,Local / Alibaba,1 set,2.00,Case assembly
+Hot Glue (for cable fixing),Local,1,0.50,Cable securing
+JLCPCB (PCB/PCBA/Stencil) - mouse_pic_Y2,JLCPCB,5 pcs,35.00,PCB prototype Y2-11137478A Green 1.6mm HASL (with lead)
+3D mouse shell progress pico 2 top.stl,JLC3DP,1,3.00,ABS Black 3 days
+3D mouse shell progress pico 2 bottom.stl,JLC3DP,1,4.42,ABS Black 3 days
+3D mouse shell progress pico 2 thumb a.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
+3D mouse shell progress pico 2 thumb b.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
+3D mouse shell progress pico 2 wheel brace.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
+3D mouse shell progress pico 2 wheel.stl,JLC3DP,1,1.00,PA12-HP Nylon Black 3 days
+3D mouse shell progress pico 2 top.stl (duplicate print),JLC3DP,1,3.00,ABS Black 3 days
+3D mouse shell progress pico 2 bottom.stl (duplicate print),JLC3DP,1,4.42,ABS Black 3 days
+Alibaba Order Subtotal,Alibaba,1,71.13,After coupons
+Shipping (Alibaba),Alibaba,1,14.12,Shipping cost for components
+Soldering Iron,Local,1,0.00,I don’t currently have one but can arrange if needed (not included in total cost)
+Final Total Cost,All,1,120.00,Complete estimated project cost (hardware + PCB + 3D printing)
