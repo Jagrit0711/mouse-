@@ -1,22 +1,41 @@
-Item,Quantity,Category,Part Name,Description,Approx. Cost (INR),Source/Example,Notes,Subtotal (INR)
-1,1,MCU Board,RP2040 board (e.g. Raspberry Pi Pico),"Main microcontroller for USB HID mouse",500,Raspberry Pi Pico or equivalent,"Can be replaced by custom RP2040 PCB as in original project",500
-2,1,Sensor,Pixart PMW3360,"Gaming-grade optical sensor, salvaged from a commercial mouse",1400,Salvaged or AliExpress,"Must match firmware; needs SROM extracted",1400
-3,1,Optical Lens,PMW3360 Lens,"Original lens that sits over the PMW3360 sensor",0,Salvaged,"Comes with sensor, not sold separately",0
-4,1,PCB,Custom Mouse PCB,"Custom PCB designed for RP2040 + PMW3360 + switches",300,JLCPCB / PCBWay,"Single prototype cost estimate",300
-5,6,Switches,Omron D2F-01F or D2FC,"Mouse button micro-switches (L/R/M + side + extra)",60,Omron / compatible,"₹10 per switch",360
-6,1,Encoder,11mm Alps-compatible scroll wheel encoder,"Rotary encoder for scroll wheel",200,Alps or compatible,"For smooth scroll input",200
-7,1,USB Cable,USB-A to 4-wire cable,"Cable for wired mouse connection",150,Any decent USB cable,"Can crimp to Dupont connectors or solder directly",150
-8,4,Header Pins,Dupont-compatible header pins,"Male header pins to connect USB cable to PCB",20,Generic,"Optional",20
-9,1,3D Print - Bottom Shell,Mouse Shell Bottom,"3D printed base of mouse",250,STL from “Case Model”,"Print in PLA; ensure flatness after cooling",250
-10,1,3D Print - Top Shell,Mouse Shell Top,"3D printed top cover",250,STL from “Case Model”,"Requires tree supports",250
-11,2,3D Print - Side Buttons,Thumb Side Buttons,"Left-side thumb buttons",50,STL from “Case Model”,"Small parts; low cost",50
-12,1,3D Print - Scroll Wheel,Scroll Wheel,"3D printed scroll wheel or salvaged one",30,STL or salvaged,"Print slow for smooth spin",30
-13,1,3D Print - Wheel Brace,Scroll Wheel Brace,"Holds scroll wheel and keeps it centered",20,STL from “Case Model”,"Tiny print part",20
-14,1,Feet,Mouse Feet Set,"0.6mm PTFE or similar glide feet",150,Generic mouse skates,"Thickness important for correct sensor height",150
-15,5,Screws,Small case/PCB screws,"Approx 2mm diameter case and PCB mounting screws",50,Salvaged or generic,"3 for shell, 2 for PCB",50
-16,1,Resistors & Passives,Misc SMD/through-hole parts,"LED resistor, pull-ups, decoupling caps, etc.",100,As per PCB BOM,"Mostly included in PCBA service",100
-17,1,Adhesive,Hot Glue,"For securing USB cable at front exit",20,Generic,"Do not use on sensor or switches",20
-18,1,Tooling (non-consumed),3D Printer,"For printing shell and parts",0,Existing tool,"Not a consumable part",0
-19,1,Tooling (non-consumed),Soldering Iron,"For soldering switches, headers, etc.",0,Existing tool,"Not a consumable part",0
-20,1,Tooling (non-consumed),Hot Air Rework Station,"For salvaging PMW3360 and SMD work",0,Existing tool,"Not a consumable part",0
-21,,,,Total Estimated Cost (INR),,,,"3800"
+# DIY Custom Mouse - Final Bill of Materials (BOM)
+
+Product Name, Source, Quantity, Cost (USD), Notes
+Raspberry Pi Pico / Pico 2, Alibaba, 1, $6.00, Main microcontroller board
+Pixart PMW3360 Sensor (Salvaged / Alibaba), Alibaba, 1, $12.00, Optical sensor for tracking
+Omron D2F-01F Switches (Set of 6), Alibaba, 1, $4.50, Click switches for buttons
+11mm Alps Scroll Encoder, Alibaba, 1, $3.50, For scroll wheel function
+Micro USB Cable, Alibaba, 1, $1.50, Power and data connection
+PTFE Mouse Feet (0.6mm), Alibaba, 1, $2.00, Smooth surface gliding
+Misc Resistors, Capacitors, and Wires, Alibaba, 1 set, $5.00, For power, LED, and switch connections
+Screws and small hardware, Local / Alibaba, 1 set, $2.00, Case assembly
+Hot Glue (for cable fixing), Local, 1, $0.50, Cable securing
+
+, , , , 
+# PCB and 3D Printed Parts (JLCPCB / JLC3DP)
+JLCPCB (PCB/PCBA/Stencil) - mouse_pic_Y2, JLCPCB, 5 pcs, $35.00, PCB prototype: Y2-11137478A, Green, 1.6mm thickness, HASL (with lead)
+3D mouse shell progress pico 2 top.stl, JLC3DP, 1, $3.00, ABS, Black, 3 days
+3D mouse shell progress pico 2 bottom.stl, JLC3DP, 1, $4.42, ABS, Black, 3 days
+3D mouse shell progress pico 2 thumb a.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
+3D mouse shell progress pico 2 thumb b.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
+3D mouse shell progress pico 2 wheel brace.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
+3D mouse shell progress pico 2 wheel.stl, JLC3DP, 1, $1.00, PA12-HP Nylon, Black, 3 days
+3D mouse shell progress pico 2 top.stl (duplicate print), JLC3DP, 1, $3.00, ABS, Black, 3 days
+3D mouse shell progress pico 2 bottom.stl (duplicate print), JLC3DP, 1, $4.42, ABS, Black, 3 days
+
+, , , ,
+# Alibaba Order Summary
+, , , ,
+Merchandise Total, , , $77.74, 
+Shipping (Estimated), , , $2.39, 
+Coupons Applied, , , -$9.00, 
+Subtotal, , , $71.13, 
+
+, , , ,
+# Additional Details
+Shipping (Alibaba), , , $14.12, Shipping cost for components from Alibaba
+Soldering Iron, Local, 1, $0.00, "I don’t currently have one, but I can arrange if needed — not included in total cost"
+
+, , , ,
+# FINAL TOTAL COST (Including All Orders & Shipping)
+, , , ≈ $120.00, Complete estimated cost for full project (hardware, PCB, and 3D printing)
